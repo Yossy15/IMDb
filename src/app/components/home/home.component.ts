@@ -41,6 +41,7 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['/person', personId]);
   }
 
+
   scrollLeft() {
     if (this.moviesGrid) {
       this.moviesGrid.nativeElement.scrollBy({ left: -300, behavior: 'smooth' });
