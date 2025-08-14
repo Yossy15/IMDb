@@ -1,0 +1,89 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Avengers: Endgame",
+      "image": "https://th.bing.com/th/id/R.02c55e036b931fc0c81c87b33bfc8318?rik=2lRb%2bbX%2fjtKC4Q&pid=ImgRaw&r=0",
+      "rating": 8.4,
+      "trailer": "https://www.youtube.com/embed/TcMBFSGVi1c",
+      "genres": ["Action", "Adventure", "Drama"],
+      "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins.",
+      "cast": [
+        {"type": "Director", "personIds": [1]},
+        {"type": "Actor", "personIds": [2, 3, 4]},
+        {"type": "Producer", "personIds": [5]}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The Dark Knight",
+      "image": "https://tse2.mm.bing.net/th/id/OIP.rvxkm3ZswfeGymXwjT686wAAAA?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "rating": 9.0,
+      "trailer": "https://www.youtube.com/embed/EXeTwQWrcwY",
+      "genres": ["Action", "Crime", "Drama"],
+      "description": "Batman faces the Joker, a criminal mastermind who wants to plunge Gotham City into anarchy.",
+      "cast": [
+        {"type": "Director", "personIds": [6]},
+        {"type": "Actor", "personIds": [7, 8, 9]},
+        {"type": "Producer", "personIds": [10]}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Inception",
+      "image": "https://th.bing.com/th/id/R.be7248985232d46128041023c99fad7d?rik=m%2fYm13OWgvgEMQ&riu=http%3a%2f%2fwww.nolanfans.com%2fimages%2fposters%2finception%2fp4xfull.jpg&ehk=fTBnrxgKiU4dJQxZMWXrFmdjr5dpguBG6osjjkLxxPA%3d&risl=1&pid=ImgRaw&r=0",
+      "rating": 8.8,
+      "trailer": "https://www.youtube.com/embed/YoHD9XEInc0",
+      "genres": ["Action", "Sci-Fi", "Thriller"],
+      "description": "A thief who steals corporate secrets through dream-sharing technology.",
+      "cast": [
+        {"type": "Director", "personIds": [6]},
+        {"type": "Actor", "personIds": [11, 12, 13]},
+        {"type": "Producer", "personIds": [14]}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Parasite",
+      "image": "https://i0.wp.com/www.globalgranary.life/wp-content/uploads/2020/02/Parasite.jpeg?ssl=1",
+      "rating": 8.6,
+      "trailer": "https://www.youtube.com/embed/5xH0HfJHsaY",
+      "genres": ["Comedy", "Drama", "Thriller"],
+      "description": "A poor family schemes to become employed by a wealthy family.",
+      "cast": [
+        {"type": "Director", "personIds": [15]},
+        {"type": "Actor", "personIds": [16, 17, 18]},
+        {"type": "Producer", "personIds": [19]}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Pulp Fiction",
+      "image": "https://image.tmdb.org/t/p/original/n29q4PmwmrxKBPX2grAvFXyYXYV.jpg",
+      "rating": 8.9,
+      "trailer": "https://www.youtube.com/embed/s7EdQ4FqbhY",
+      "genres": ["Crime", "Drama"],
+      "description": "The lives of two mob hitmen, a boxer, and others intertwine in four tales of violence.",
+      "cast": [
+        {"type": "Director", "personIds": [20]},
+        {"type": "Actor", "personIds": [21, 22, 23]},
+        {"type": "Producer", "personIds": [24]}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Spirited Away",
+      "image": "https://tse3.mm.bing.net/th/id/OIP.6WtlDwydOpte7CvxJyX0RwHaK-?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "rating": 9.3,
+      "trailer": "https://www.youtube.com/embed/ByXuk9QqQkk",
+      "genres": ["Animation", "Adventure", "Family"],
+      "description": "A young girl enters a world ruled by gods and witches.",
+      "cast": [
+        {"type": "Director", "personIds": [25]},
+        {"type": "Actor", "personIds": [26, 27, 28]},
+        {"type": "Producer", "personIds": [29]}
+      ]
+    }
+  ]
+}
+

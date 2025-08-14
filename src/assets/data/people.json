@@ -1,0 +1,270 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "firstName": "Anthony",
+      "lastName": "Russo",
+      "age": 54,
+      "image": "https://tse4.mm.bing.net/th/id/OIP.ZA8lKXX3prZhMTqKGf2FtgHaLH?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "American film and television director, producer, and screenwriter best known for directing four films in the Marvel Cinematic Universe."
+    },
+    {
+      "id": 2,
+      "firstName": "Robert",
+      "lastName": "Downey Jr.",
+      "age": 59,
+      "image": "https://www.baldandbeards.com/wp-content/uploads/infinity-war-robert-downey-jr-hair.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "American actor and producer who portrayed Tony Stark / Iron Man in the Marvel Cinematic Universe."
+    },
+    {
+      "id": 3,
+      "firstName": "Chris",
+      "lastName": "Evans",
+      "age": 43,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/ChrisEvans2023.jpg/250px-ChrisEvans2023.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "American actor best known for his role as Captain America in the Marvel Cinematic Universe."
+    },
+    {
+      "id": 4,
+      "firstName": "Scarlett",
+      "lastName": "Johansson",
+      "age": 40,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Scarlett_Johansson_2003.jpg/250px-Scarlett_Johansson_2003.jpg",
+      "description": "American actress known for her role as Black Widow in the Marvel Cinematic Universe."
+    },
+    {
+      "id": 5,
+      "firstName": "Kevin",
+      "lastName": "Feige",
+      "age": 51,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kevin_Feige_by_Gage_Skidmore.jpg/250px-Kevin_Feige_by_Gage_Skidmore.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "American film producer who is the president of Marvel Studios."
+    },
+    {
+      "id": 6,
+      "firstName": "Christopher",
+      "lastName": "Nolan",
+      "age": 54,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/ChrisNolanBFI150224_%2810_of_12%29_%2853532289710%29_%28cropped2%29.jpg/250px-ChrisNolanBFI150224_%2810_of_12%29_%2853532289710%29_%28cropped2%29.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "British-American filmmaker known for his distinctive filmmaking style and complex narratives."
+    },
+    {
+      "id": 7,
+      "firstName": "Christian",
+      "lastName": "Bale",
+      "age": 50,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Christian_Bale-7837.jpg/250px-Christian_Bale-7837.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "English actor known for his intense method acting and physical transformations."
+    },
+    {
+      "id": 8,
+      "firstName": "Heath",
+      "lastName": "Ledger",
+      "age": 28,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Heath_Ledger_%28Berlin_Film_Festival_2006%29_revised.jpg/250px-Heath_Ledger_%28Berlin_Film_Festival_2006%29_revised.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "Australian actor remembered for his iconic portrayal of the Joker in The Dark Knight."
+    },
+    {
+      "id": 9,
+      "firstName": "Aaron",
+      "lastName": "Eckhart",
+      "age": 56,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Aaron_Eckhart_%2829830286295%29_%28cropped%29.jpg/250px-Aaron_Eckhart_%2829830286295%29_%28cropped%29.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "American actor known for playing Harvey Dent/Two-Face in The Dark Knight."
+    },
+    {
+      "id": 10,
+      "firstName": "Emma",
+      "lastName": "Thomas",
+      "age": 53,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Emma_Thomas_2.jpg/250px-Emma_Thomas_2.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "British film producer known for producing all of Christopher Nolan's films."
+    },
+    {
+      "id": 11,
+      "firstName": "Leonardo",
+      "lastName": "DiCaprio",
+      "age": 49,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Leonardo_Dicaprio_Cannes_2019.jpg/250px-Leonardo_Dicaprio_Cannes_2019.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "American actor and environmental activist known for his leading roles in blockbuster films."
+    },
+    {
+      "id": 12,
+      "firstName": "Marion",
+      "lastName": "Cotillard",
+      "age": 48,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Marion_Cotillard_at_2019_Cannes.jpg/250px-Marion_Cotillard_at_2019_Cannes.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "French actress known for her roles in both French and Hollywood films."
+    },
+    {
+      "id": 13,
+      "firstName": "Tom",
+      "lastName": "Hardy",
+      "age": 47,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Tom_Hardy_2014.jpg/800px-Tom_Hardy_2014.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "English actor known for his roles in action films and dramatic performances."
+    },
+    {
+      "id": 14,
+      "firstName": "Lynda",
+      "lastName": "Obst",
+      "age": 72,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lynda_Obst_2014.jpg/800px-Lynda_Obst_2014.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "American film producer known for producing science fiction films."
+    },
+    {
+      "id": 15,
+      "firstName": "Bong",
+      "lastName": "Joon-ho",
+      "age": 55,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Bong_Joon-ho_2017.jpg/800px-Bong_Joon-ho_2017.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "South Korean filmmaker known for his genre-bending films that explore social themes."
+    },
+    {
+      "id": 16,
+      "firstName": "Song",
+      "lastName": "Kang-ho",
+      "age": 57,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Song_Kang-ho_%28%EC%86%A1%EA%B0%95%ED%98%B8%29_%28cropped%29.jpg/800px-Song_Kang-ho_%28%EC%86%A1%EA%B0%95%ED%98%B8%29_%28cropped%29.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "South Korean actor known for his frequent collaborations with Bong Joon-ho."
+    },
+    {
+      "id": 17,
+      "firstName": "Lee",
+      "lastName": "Sun-kyun",
+      "age": 48,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Lee_Sun-kyun_2010.jpg/800px-Lee_Sun-kyun_2010.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "South Korean actor known for his versatile performances in films and television."
+    },
+    {
+      "id": 18,
+      "firstName": "Cho",
+      "lastName": "Yeo-jeong",
+      "age": 44,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Cho_Yeo-jeong_2019.jpg/800px-Cho_Yeo-jeong_2019.jpg",
+      "description": "South Korean actress known for her role in Parasite."
+    },
+    {
+      "id": 19,
+      "firstName": "Kwak",
+      "lastName": "Sin-ae",
+      "age": 52,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Kwak_Sin-ae_2019.jpg/800px-Kwak_Sin-ae_2019.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "South Korean film producer known for producing award-winning films."
+    },
+    {
+      "id": 20,
+      "firstName": "Quentin",
+      "lastName": "Tarantino",
+      "age": 61,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Quentin_Tarantino_2013.jpg/800px-Quentin_Tarantino_2013.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "American filmmaker known for his nonlinear narratives and pop culture references."
+    },
+    {
+      "id": 21,
+      "firstName": "John",
+      "lastName": "Travolta",
+      "age": 70,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/John_Travolta_2010.jpg/800px-John_Travolta_2010.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "American actor known for his roles in Saturday Night Fever, Grease, and Pulp Fiction."
+    },
+    {
+      "id": 22,
+      "firstName": "Samuel L.",
+      "lastName": "Jackson",
+      "age": 75,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Samuel_L._Jackson_2019.jpg/800px-Samuel_L._Jackson_2019.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "American actor known for his extensive film career and iconic roles."
+    },
+    {
+      "id": 23,
+      "firstName": "Uma",
+      "lastName": "Thurman",
+      "age": 54,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Uma_Thurman_2019.jpg/800px-Uma_Thurman_2019.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "American actress known for her roles in Pulp Fiction and Kill Bill."
+    },
+    {
+      "id": 24,
+      "firstName": "Lawrence",
+      "lastName": "Bender",
+      "age": 65,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Lawrence_Bender_2010.jpg/800px-Lawrence_Bender_2010.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "American film producer known for producing Quentin Tarantino films."
+    },
+    {
+      "id": 25,
+      "firstName": "Hayao",
+      "lastName": "Miyazaki",
+      "age": 83,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Hayao_Miyazaki_2012.jpg/800px-Hayao_Miyazaki_2012.jpg",
+      "description": "Japanese animator, filmmaker, and manga artist, co-founder of Studio Ghibli."
+    },
+    {
+      "id": 26,
+      "firstName": "Rumi",
+      "lastName": "Hiiragi",
+      "age": 35,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Rumi_Hiiragi_2019.jpg/800px-Rumi_Hiiragi_2019.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "Japanese actress who voiced Chihiro in Spirited Away."
+    },
+    {
+      "id": 27,
+      "firstName": "Miyu",
+      "lastName": "Irino",
+      "age": 36,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Miyu_Irino_2019.jpg/800px-Miyu_Irino_2019.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "Japanese voice actor known for voicing Haku in Spirited Away."
+    },
+    {
+      "id": 28,
+      "firstName": "Mari",
+      "lastName": "Natsuki",
+      "age": 78,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Mari_Natsuki_2019.jpg/800px-Mari_Natsuki_2019.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "Japanese actress and voice actress known for her work in Studio Ghibli films."
+    },
+    {
+      "id": 29,
+      "firstName": "Toshio",
+      "lastName": "Suzuki",
+      "age": 76,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Toshio_Suzuki_2019.jpg/800px-Toshio_Suzuki_2019.jpg",
+      "video": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "description": "Japanese film producer and president of Studio Ghibli."
+    },
+    {
+      "id": 30,
+      "firstName": "Jennifer",
+      "lastName": "Lawrence",
+      "age": 34,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Jennifer_Lawrence_at_the_83rd_Academy_Awards_crop.jpg/800px-Jennifer_Lawrence_at_the_83rd_Academy_Awards_crop.jpg",
+      "description": "American actress known for her roles in The Hunger Games series and Silver Linings Playbook."
+    }
+  ]
+}

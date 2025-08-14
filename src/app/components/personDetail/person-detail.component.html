@@ -1,0 +1,52 @@
+<nav class="navbar">
+  <h2 class="navbar-text">IMDb</h2>
+</nav>
+
+<div class="person-detail-container" *ngIf="person">
+  <div class="back-button-container">
+    <button class="back-button" (click)="goBack()">
+      ← Back
+    </button>
+  </div>
+
+  <div class="container mt-4" style="background-color: #42424236;">
+    <div class="row">
+      <div class="col-md-8 p-3">
+        <h1 class="person-name">{{ person.firstName }} {{ person.lastName }}</h1>
+      </div>
+      <div class="col-md-4">
+
+      </div>
+
+      <div class="col-md-3">
+        <div class="person-image-section">
+          <img [src]="person.image" [alt]="person.firstName + ' ' + person.lastName" class="person-image"
+            style="width: 108%; height: 385px;">
+        </div>
+      </div>
+      <div class="col-md-7">
+        <div class="video-section" *ngIf="person.video">
+          <div class="video-container">
+            <iframe [src]="getSafeUrl(person.video)" frameborder="0" style="width: 103%; height: 385px;"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div style="display: flex; flex-direction: column; justify-content: space-between;">
+          <div style="background-color: #333; height: 175px">ㅤ</div>
+          <hr>
+          <div style="background-color: #333; height: 175px;">ㅤ</div>
+        </div>
+
+      </div>
+
+      <div class="col-md-12">
+        <p>{{ person.description }}</p>
+      </div>
+
+    </div>
+  </div>
+
+</div>

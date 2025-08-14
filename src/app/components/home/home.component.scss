@@ -1,0 +1,243 @@
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+  .navbar-text {
+    color: #f5c518;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 2rem;
+  }
+}
+
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #ffffff;
+}
+
+.section-title {
+  font-size: 1.5rem; // แก้ค่าที่ผิด
+  font-weight: 700;
+  margin-bottom: 2rem;
+  background-clip: text;
+}
+
+.movies-section {
+  margin-bottom: 4rem;
+
+  .movies-grid {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+    scroll-behavior: smooth;
+
+    /* ซ่อน scrollbar */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    scrollbar-width: none;
+
+    .movie-card {
+      flex: 0 0 auto;
+      width: 250px;
+      background: linear-gradient(145deg, #262626, #1a1a1a);
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+
+      .movie-image-container {
+        position: relative;
+        overflow: hidden;
+
+        .movie-image {
+          width: 100%;
+          height: 355px;
+          object-fit: cover;
+          transition: transform 0.3s ease;
+        }
+
+        .rating-badge {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          background: rgba(0, 0, 0, 0.8);
+          color: #f5c518;
+          padding: 0.5rem;
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          gap: 0.3rem;
+          font-weight: 700;
+          backdrop-filter: blur(10px);
+
+          .star {
+            font-size: 1.2rem;
+          }
+        }
+      }
+
+      .movie-info {
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+
+        .movie-title {
+          font-size: 1.1rem;
+          font-weight: 600;
+          margin-bottom: 1rem;
+          color: #ffffff;
+          line-height: 1.4;
+        }
+
+        .view-details-btn {
+          background: #333;
+          color: #0066c5;
+          border: none;
+          padding: 0.8rem 1.5rem;
+          border-radius: 6px;
+          cursor: pointer;
+          font-weight: 600;
+          transition: all 0.3s ease;
+          width: 100%;
+          font-size: 0.8rem;
+
+          &:hover {
+            filter: brightness(2);
+          }
+        }
+
+        .view-details-btn2 {
+          background: transparent;
+          color: #ffffff;
+          border: none;
+          padding: 0.8rem 1.5rem;
+          cursor: pointer;
+          font-weight: 600;
+          width: 100%;
+          font-size: 0.8rem;
+          margin-top: 5px;
+
+          &:hover {
+            background: #ffffff1e;
+            border-radius: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.people-section {
+  .people-grid {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+    scroll-behavior: smooth;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    scrollbar-width: none;
+
+    .person-card {
+      flex: 0 0 auto;
+      width: 250px;
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      .person-image-container {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .person-image {
+          width: 200px;
+          height: 200px;
+          object-fit: cover;
+          transition: transform 0.3s ease;
+          border-radius: 50%;
+        }
+      }
+
+      .person-info {
+        text-align: center;
+
+        .person-name {
+          font-size: 1.1rem;
+          font-weight: 600;
+          margin-bottom: 0.5rem;
+          color: #ffffff;
+        }
+
+        .person-age {
+          color: #cccccc;
+          font-size: 0.9rem;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .movies-grid,
+  .people-grid {
+    display: grid; // ใช้ grid ตอนจอเล็ก
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .movie-card .movie-image-container .movie-image {
+    height: 280px;
+  }
+
+  .person-card .person-image-container .person-image {
+    height: 200px;
+  }
+}
+
+.movies-wrapper,
+.person-wrapper {
+  position: relative;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  z-index: 10;
+
+  &.left {
+    left: 0;
+  }
+
+  &.right {
+    right: 0;
+  }
+}
