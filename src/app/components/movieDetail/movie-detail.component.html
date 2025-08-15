@@ -4,9 +4,7 @@
 
 <div class="movie-detail-container" *ngIf="movie">
   <div class="back-button-container">
-    <button class="back-button" (click)="goBack()">
-      ← Back
-    </button>
+    <button class="back-button" (click)="goBack()">← Back</button>
   </div>
 
   <div class="container mt-4" style="background-color: #42424236;">
@@ -14,58 +12,58 @@
       <div class="col-md-8 p-3">
         <h1 class="movie-title">{{ movie.title }}</h1>
       </div>
-      <div class="col-md-4">
-
-      </div>
+      <div class="col-md-4"></div>
 
       <div class="col-md-3">
         <div class="movie-poster">
           <img [src]="movie.image" [alt]="movie.title" class="poster-image" style="width: 108%; height: 385px;">
         </div>
       </div>
+
       <div class="col-md-7">
         <div class="trailer-section" *ngIf="movie.trailer">
           <div class="video-container">
-            <iframe [src]="getSafeUrl(movie.trailer)" frameborder="0" style="width: 103%; height: 385px;"
-              allowfullscreen>
+            <iframe [src]="getSafeUrl(movie.trailer)"
+                    frameborder="0"
+                    style="width: 103%; height: 385px;"
+                    allowfullscreen>
             </iframe>
           </div>
         </div>
       </div>
+
       <div class="col-md-2">
         <div style="display: flex; flex-direction: column; justify-content: space-between;">
-          <div style="background-color: #333; height: 175px">ㅤ</div>
+          <div style="background-color: #333; height: 175px"></div>
           <hr>
-          <div style="background-color: #333; height: 175px;">ㅤ</div>
+          <div style="background-color: #333; height: 175px;"></div>
         </div>
-
       </div>
 
       <div class="col-md-12">
         <div class="genres">
-
           <span class="genre-tag" *ngFor="let genre of movie.genres">
             {{ genre }}
           </span>
 
           <span class="movie-description row">
-            <span>{{ movie.description }}
-              <hr>
-            </span>
+            <span>{{ movie.description }}<hr></span>
 
             <span class="cast-section" *ngIf="castData.length > 0">
               <div class="cast-category" *ngFor="let category of castData">
-                <h2 class="category-title">{{ category.type }}<span class="viewProfile"
-                    *ngFor="let person of category.people" (click)="navigateToPerson(person.id)">ㅤ◦ {{ person.firstName
-                    }} {{ person.lastName }}</span></h2>
+                <h2 class="category-title">
+                  {{ category.type }}
+                  <a class="viewProfile"
+                     *ngFor="let person of category.people"
+                     [routerLink]="['/person', person.id]">
+                    ㅤ◦ {{ person.firstName }} {{ person.lastName }}
+                  </a>
+                </h2>
               </div>
             </span>
           </span>
-
         </div>
       </div>
-      
     </div>
   </div>
-
 </div>

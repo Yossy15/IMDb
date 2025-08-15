@@ -9,7 +9,10 @@
     padding-left: 2rem;
   }
 }
-
+a {
+  display: block; 
+  text-decoration: none; 
+}
 .movie-detail-container {
   max-width: 1200px;
   margin: 0 auto;

@@ -5,7 +5,7 @@ import { PersonDetailComponent } from './components/personDetail/person-detail.c
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'movie/:id', component: MovieDetailComponent, data: { renderMode: 'ssr' } },
-  { path: 'person/:id', component: PersonDetailComponent, data: { renderMode: 'ssr' } },
+  { path: 'movie/:id', component: MovieDetailComponent},
+  { path: 'person/:id', component: PersonDetailComponent},
   { path: '**', redirectTo: '' }
 ];

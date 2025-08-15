@@ -1,17 +1,16 @@
-import { Component, OnInit } from '@angular/core';
-import { ElementRef, ViewChild } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { MovieService, Movie, Person } from '../../services/movie.service';
 import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-home',
   standalone: true,
   providers: [MovieService],
-  imports: [CommonModule, HttpClientModule], // ✅ ไม่ต้องใช้ HttpClientModule แล้ว
+  imports: [CommonModule, RouterModule, HttpClientModule],
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'] // ✅ ต้องใช้ styleUrls (ไม่ใช่ styleUrl)
+  styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
   @ViewChild('moviesGrid') moviesGrid!: ElementRef;
@@ -19,13 +18,9 @@ export class HomeComponent implements OnInit {
   movies: Movie[] = [];
   people: Person[] = [];
 
-  constructor(
-    private movieService: MovieService,
-    private router: Router
-  ) { }
+  constructor(private movieService: MovieService) {}
 
   ngOnInit(): void {
-
     this.movieService.getMovies().subscribe(movies => {
       this.movies = movies;
     });
@@ -34,15 +29,6 @@ export class HomeComponent implements OnInit {
       this.people = people.slice(0, 12);
     });
   }
-
-  navigateToMovie(movieId: number): void {
-    this.router.navigate(['/movie', movieId]);
-  }
-
-  navigateToPerson(personId: number): void {
-    this.router.navigate(['/person', personId]);
-  }
-
 
   scrollLeft() {
     if (this.moviesGrid) {
