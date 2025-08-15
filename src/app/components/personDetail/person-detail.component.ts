@@ -4,11 +4,13 @@ import { MovieService, Person } from '../../services/movie.service';
 import { Location } from '@angular/common';
 import { CommonModule } from '@angular/common';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http'
 
 @Component({
   selector: 'app-person-detail',
   standalone: true,
-  imports: [CommonModule],
+  providers: [MovieService],
+  imports: [CommonModule, HttpClientModule],
   templateUrl: './person-detail.component.html',
   styleUrl: './person-detail.component.scss'
 })

@@ -3,11 +3,13 @@ import { ElementRef, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { MovieService, Movie, Person } from '../../services/movie.service';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http'
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule], // ✅ ไม่ต้องใช้ HttpClientModule แล้ว
+  providers: [MovieService],
+  imports: [CommonModule, HttpClientModule], // ✅ ไม่ต้องใช้ HttpClientModule แล้ว
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'] // ✅ ต้องใช้ styleUrls (ไม่ใช่ styleUrl)
 })

@@ -4,12 +4,15 @@ import { MovieService, Movie, Person } from '../../services/movie.service';
 import { Location } from '@angular/common';
 import { CommonModule } from '@angular/common';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http'
 
 @Component({
   selector: 'app-movie-detail',
-  imports: [CommonModule],
+  standalone: true,
+  imports: [CommonModule, HttpClientModule ],
   templateUrl: './movie-detail.component.html',
-  styleUrl: './movie-detail.component.scss'
+  styleUrl: './movie-detail.component.scss',
+  providers: [MovieService]
 })
 export class MovieDetailComponent implements OnInit {
   movie?: Movie;
